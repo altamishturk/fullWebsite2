@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoes Website</title>
+    <!-- website logo  -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- my css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- bootstrap cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- header section  -->
+    <header class="header_section" id="header_section">
+        <div class="container-fluid">
+            <div class="row justify-content-betweens">
+                <div class="col-lg-2 col-md-3 col-sm-4 logo_box">
+                    <!-- logo conatainer  -->
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- main navigation  -->
+                <div class="col-lg-8 col-md-7 col-sm-4 menu_container menu_box">
+                    <nav class="navbar navbar-expand-lg text-center main_menu">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#collapseable_data">
+                            <span class="navbar-toggler-icon">
+                                <i class="fa fa-bars"></i>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapseable_data">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-list">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-list">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#service_section" class="nav-list">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#feature_section" class="nav-list">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-list">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-list">CONTACT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-list">LOCATION</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-list">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!-- search icon  -->
+                <div class="col-gl-2 col-md-2 col-sm-0 search_box">
+                    <div class="search_icon_container text-right">
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- slides show csetion  -->
+    <section class="slideshow_section" id="shideshow_section">
+        <!-- prev next slide button  -->
+        <div class="prev slidebtn" onclick="plusslides(-1)">
+            <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="next slidebtn" onclick="plusslides(1)">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <!-- all slides  -->
+        <div class="slides">
+            <h2 class="left_text">Air <br>jorden <span>5 Retro</span></h2>
+            <img src="img/slider-1.png" alt="slider_img">
+            <div class="p_details">
+                <h2>Nike
+                    <span>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </h2>
+                <h3>Air jorden 5 Retro</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellendus.</p>
+                <p><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet.</p>
+                <div class="size_prize_add-to-cart">
+                    <span>
+                        <select name="size" id="size">
+                            <option value="blank">Size</option>
+                            <option value="2">M</option>
+                            <option value="3">L</option>
+                            <option value="4">XL</option>
+                            <option value="5">XXL</option>
+                        </select>
+                    </span>
+                    <span class="add_to_cart">
+                        <a href="#">Add To Cart</a>
+                    </span>
+                    <span class="prize">
+                        $139
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="slides">
+            <h2 class="left_text">Air <br>jorden <span>5 Retro</span></h2>
+            <img src="img/slider-2.png" alt="slider img">
+            <div class="p_details">
+                <h2>Nike
+                    <span>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </h2>
+                <h3>Air jorden 5 Retro</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellendus.</p>
+                <p><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet.</p>
+                <div class="size_prize_add-to-cart">
+                    <span>
+                        <select name="size" id="size">
+                            <option value="blank">Size</option>
+                            <option value="2">M</option>
+                            <option value="3">L</option>
+                            <option value="4">XL</option>
+                            <option value="5">XXL</option>
+                        </select>
+                    </span>
+                    <span class="add_to_cart">
+                        <a href="#">Add To Cart</a>
+                    </span>
+                    <span class="prize">
+                        $139
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="slides">
+            <h2 class="left_text">Air <br>jorden <span>5 Retro</span></h2>
+            <img src="img/slider-3.png" alt="slider img">
+            <div class="p_details">
+                <h2>Nike
+                    <span>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star fill"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </h2>
+                <h3>Air jorden 5 Retro</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellendus.</p>
+                <p><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet.</p>
+                <p><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet.</p>
+                <div class="size_prize_add-to-cart">
+                    <span class="size">
+                        <select name="size" id="size">
+                            <option value="blank">Size</option>
+                            <option value="2">M</option>
+                            <option value="3">L</option>
+                            <option value="4">XL</option>
+                            <option value="5">XXL</option>
+                        </select>
+                    </span>
+                    <span class="add_to_cart">
+                        <a href="#">Add To Cart</a>
+                    </span>
+                    <span class="prize">
+                        $139
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service_section" id="service_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section_name">Service</h2>
+                    <h3 class="section_tatle">
+                        we design digital products which <br>
+                        help grow bisiness
+                    </h3>
+                    <p class="section_discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                        animi a voluptatibus sint fuga <br>
+                        quidem ipsam accusamus! Voluptatum.</p>
+                </div>
+            </div>
+            <div class="row cards_container">
+                <div class="col-lg-3 col-md-6">
+                    <a href="#service_container" class="text-center card">
+                        <div class="fliper">
+                            <div class="front">
+                                <i class="far fa-check-square"></i>
+                                <h3>Web devlopment</h3>
+                            </div>
+                            <div class="back">
+                                <i class="far fa-check-square"></i>
+                                <h3>Web devlopment</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#service_container" class="text-center card">
+                        <div class="fliper">
+                            <div class="front">
+                                <i class="far fa-diamond"></i>
+                                <h3>Graphic designing</h3>
+                            </div>
+                            <div class="back">
+                                <i class="far fa-diamond"></i>
+                                <h3>Graphic designing</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#service_container" class="text-center card">
+                        <div class="fliper">
+                            <div class="front">
+                                <i class="far fa-clock"></i>
+                                <h3>Digital marketing</h3>
+                            </div>
+                            <div class="back">
+                                <i class="far fa-clock"></i>
+                                <h3>Digital marketing</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#service_container" class="text-center card">
+                        <div class="fliper">
+                            <div class="front">
+                                <i class="far fa-paper-plane"></i>
+                                <h3>SEO &amp; Content</h3>
+                            </div>
+                            <div class="back">
+                                <i class="far fa-paper-plane"></i>
+                                <h3>SEO &amp; Content</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#service_container" class="text-center card">
+                        <div class="fliper">
+                            <div class="front">
+                                <i class="far fa-podcast"></i>
+                                <h3>App devlopment</h3>
+                            </div>
+                            <div class="back">
+                                <i class="far fa-podcast"></i>
+                                <h3>App devlopment</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature_section" id="feature_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section_name">feature</h2>
+                    <p class="section_discription">
+                        theme was designed based on input from personal devlopment couches <br> and popular trainer so
+                        it
+                        offers all
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-tabs feature_navigation">
+                    <li class="nav-item">
+                        <a href="#tab-1" class="nav-link active" data-toggle="tab" id="tab1">
+                            <i class="fa fa-cog"></i>
+                            configration
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab-2" class="nav-link" data-toggle="tab" id="tab2">
+                            <i class="fa fa-binoculars"></i>
+                            tracking
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tab-3" class="nav-link" data-toggle="tab" id="tab3">
+                            <i class="fa fa-search"></i>
+                            Monitring
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tab-1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card left-pane first">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h2 class="card_title">Goal setting</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.
+                                                </p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fa fa-diamond"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h2 class="card_title">visual Editor</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.
+                                                </p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fa fa-check-square"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane ">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h2 class="card_title">Refined option</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.
+                                                </p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fa fa-clock"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h2 class="card_title">Reatina ready</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.
+                                                </p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fa fa-podcast"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="img/product-600x1200-2.png" alt="product" class="img-fluid">
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card right-pane first">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-wrapper">
+                                                <h2 class="card-title">calender</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+                                                    animi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fa fa-bookmark"></i>
+                                            </div>
+                                            <div class="card-wrapper">
+                                                <h2 class="card-title">easy reading</h2>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti,
+                                                    optio!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fa fa-podcast"></i>
+                                            </div>
+                                            <div class="card-wrapper">
+                                                <h2 class="card-title">good foundation</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                                                    quibusdam.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fa fa-podcast"></i>
+                                            </div>
+                                            <div class="card-wrapper">
+                                                <h2 class="card-title">good foundation</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                                                    quibusdam.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="img/product-600x1200-3.png" alt="product" class="img-fulid">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="text-area">
+                                        <h2>track result baised on your performance</h2>
+                                        <br><br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vel dolorem
+                                            dolore animi in maxime vero nemo officia maiores doloremque!</p>
+                                    </div>
+                                    <br><br>
+                                    <div class="icon-card-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-cube"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2 class="card-title">good foundation</h2>
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                                                    aliquid.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-bookmark"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2 class="card-title">easy to read</h2>
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                                                    aliquid.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2 class="card-title">good foundation</h2>
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                                                    aliquid.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2 class="card-title">good foundation</h2>
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                                                    aliquid.</p>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <br><br>
+                                    <div class="icon-card-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2>calender</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nemo!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2>calender</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nemo!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2>calender</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nemo!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h2>calender</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nemo!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-area">
+                                        <h2>monitring tool eveluavitipon</h2>
+                                        <br><br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptate
+                                            facilis assumenda ullam fugit consectetur ipsum labore necessitatibus
+                                            obcaecati molestiae.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="img/product-600x1200-4.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="details_section" id="details_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 img_container">
+                    <img src="img/details-lightbox-2.png" alt="details-img" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Retaina display</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ullam explicabo officia aut
+                        iusto illo, officiis reprehenderit, pariatur dolorem consequatur repudiandae rerum laudantium
+                        nisi dicta quod aliquam ea esse? Ea ipsum, molestias nesciunt quos ad consequuntur, totam eos
+                        delectus cum magni voluptas libero, repellendus quibusdam explicabo deleniti iste expedita
+                        tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla itaque eligendi fugit
+                        magnam quibusdam nesciunt in, accusantium adipisci eum blanditiis obcaecati provident,
+                        consequuntur veritatis alias neque, quos nostrum dignissimos saepe eveniet. Ipsam cupiditate
+                        aliquid quae vitae. Earum ut totam eligendi dignissimos sed necessitatibus dicta. Minus ut quis
+                        reprehenderit, eos alias soluta eius? Est eaque perferendis ab quasi eum! Saepe consectetur
+                        minima aliquam molestias accusamus perferendis, est dolor cumque delectus ipsa temporibus qui!
+                    </p>
+                    <a href="#details-lightbox-1" class="btn-solid-reg anim">Read more</a>
+                </div>
+            </div>
+            <div class="row  second_detail_row">
+                <div class="col-lg-6">
+                    <h2>Rresponsive metarial</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ullam explicabo officia aut
+                        iusto illo, officiis reprehenderit, pariatur dolorem consequatur repudiandae rerum laudantium
+                        nisi dicta quod aliquam ea esse? Ea ipsum, molestias nesciunt quos ad consequuntur, totam eos
+                        delectus cum magni voluptas libero, repellendus quibusdam explicabo deleniti iste expedita
+                        tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla itaque eligendi fugit
+                        magnam quibusdam nesciunt in, accusantium adipisci eum blanditiis obcaecati provident,
+                        consequuntur veritatis alias neque, quos nostrum dignissimos saepe eveniet. Ipsam cupiditate
+                        aliquid quae vitae. Earum ut totam eligendi dignissimos sed necessitatibus dicta. Minus ut quis
+                        reprehenderit, eos alias soluta eius? Est eaque perferendis ab quasi eum! Saepe consectetur
+                        minima aliquam molestias accusamus perferendis, est dolor cumque delectus ipsa temporibus qui!
+                    </p>
+                    <a href="#details-lightbox-2" class="btn-solid-reg anim">Read more</a>
+                </div>
+                <div class="col-lg-6 img_container">
+                    <img src="img/details-lightbox-1.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-6">
+                    <div class="box1">
+                        <img src="img/logo.png" alt="logo">
+                        <h2>About us</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box2">
+                        <h2>Information</h2>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">More search</a></li>
+                        <li><a href="">Blog </a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Evants</a></li>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box3">
+                        <h2>Helpfull links</h2>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">support</a></li>
+                        <li><a href="">Term & condition</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Evants</a></li>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box4">
+                        <h2>subscrive for more updates</h2>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="yourmail@gmail.com">
+                            <button type="submit">Subscrive</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 contact_us">
+                    <h2>contact Us</h2>
+                    <p><i class="fa fa-mobile"></i> + 8684864632</p>
+                    <p><i class="fa fa-mailbox"></i> altamishpasha@gmail.com</p>
+                </div>
+            </div>
+            <hr class="footer_hr">
+            <div class="row footer_bottom">
+                <div class="col-lg-4 col-md-0"></div>
+                <div class="col-lg-4 col-md-6">
+                    <ul>
+                        <li><a href="">
+                                <i class="fab fa-facebook-square"></i>
+
+                            </a>
+                        </li>
+                        <li><a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li><a href="">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li><a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <p>All right Reserved copyright 2020</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="footer1">
+            <div class="box1">
+                <img src="img/logo.png" alt="logo">
+                <h2>About us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</p>
+            </div>
+            <div class="box2">
+                <h2>Information</h2>
+                <li><a href="">About us</a></li>
+                <li><a href="">More search</a></li>
+                <li><a href="">Blog </a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">Evants</a></li>
+            </div>
+            <div class="box3">
+                <h2>Helpfull links</h2>
+                <li><a href="">Service</a></li>
+                <li><a href="">support</a></li>
+                <li><a href="">Term & condition</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Evants</a></li>
+            </div>
+            <div class="box4">
+                <h2>subscrive for more updates</h2>
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="yourmail@gmail.com">
+                    <button type="submit">Subscrive</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer2">
+            <h2>contact Us</h2>
+            <p><i class="fa fa-mobile"></i> + 8684864632</p>
+            <p><i class="fa fa-mailbox"></i> altamishpasha@gmail.com</p>
+        </div>
+        <hr class="footer_hr">
+        <div class="footer3">
+            <ul>
+                <li><a href="">
+                        <i class="fab fa-facebook-square"></i>
+
+                    </a>
+                </li>
+                <li><a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li><a href="">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li><a href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <p>All right Reserved copyright 2020</p>
+        </div> -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/ap.js"></script>
+    <!-- jquery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!-- my javascript  -->
+</body>
+
+</html>
